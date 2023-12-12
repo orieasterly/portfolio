@@ -91,9 +91,9 @@ Developed an SKU Listings Dashboard to provide a detailed analysis of each SKU's
 
 </details>
 
-## 3. Quadrant Analysis for SKU - September 2020 - Present
+# 3. Quadrant Analysis for SKU - September 2020 - Present
 
-### Objective
+## Objective
 Implemented a Quadrant Analysis for SKU project to assess and categorize products based on key metrics. The analysis aims to provide a visual representation of SKU performance, allowing for strategic decision-making by identifying high-performing and low-performing products.
 
 <details>
@@ -134,9 +134,9 @@ Implemented a Quadrant Analysis for SKU project to assess and categorize product
 
 </details>
 
-## 4. COGS Variance Analysis - February 2021 - Present
+# 4. COGS Variance Analysis - February 2021 - Present
 
-### Objective
+## Objective
 Implemented a COGS Variance Analysis project to assess the impact of volume, mix, and rate variances on the cost of goods sold (COGS). The analysis follows the methodology outlined in [this link](https://8020consulting.com/manufacturing-cogs-variance-volume-mix-rate/), aiming to provide insights into the factors contributing to fluctuations in COGS.
 
 <details>
@@ -177,9 +177,9 @@ Implemented a COGS Variance Analysis project to assess the impact of volume, mix
 
 </details>
 
-## 5. Automation Anywhere RPA Implementation - July 2021 - Present
+# 5. Automation Anywhere RPA Implementation - July 2021 - Present
 
-### Objective
+## Objective
 Deployed Automation Anywhere's Robotic Process Automation (RPA) to revolutionize and automate various administrative tasks. The project aims to leverage the power of RPA to drive efficiency, accuracy, and time savings in daily operational workflows.
 
 <details>
@@ -223,9 +223,9 @@ Deployed Automation Anywhere's Robotic Process Automation (RPA) to revolutionize
 
 </details>
 
-## 6. SKU Costing Model Automation with Excel and VBA - October 2021 - Present
+# 6. SKU Costing Model Automation with Excel and VBA - October 2021 - Present
 
-### Objective
+## Objective
 Successfully implemented an automated Costing Model for each SKU using Excel and Visual Basic for Applications (VBA). The project significantly reduces the time required for updating dry goods and raw meat costs, adjusting recipes, and calculating SKU costs. Tasks that previously took 2 days are now accomplished within hours, providing users with a dynamic and efficient tool for streamlined pricing decisions.
 
 <details>
