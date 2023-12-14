@@ -135,7 +135,7 @@ Implemented a Quadrant Analysis for SKU project to assess and categorize product
 # 4. COGS Variance Analysis - February 2021 - June 2023
 
 ## Objective
-Implemented a COGS Variance Analysis project to assess the impact of volume, mix, and rate variances on the cost of goods sold (COGS). The analysis follows the methodology outlined in [this link](https://8020consulting.com/manufacturing-cogs-variance-volume-mix-rate/), aiming to provide insights into the factors contributing to fluctuations in COGS.
+Implemented a COGS Variance Analysis project to assess the impact of volume, mix, and rate variances on the cost of goods sold (COGS). The analysis follows the standardized methodology, aiming to provide insights into the factors contributing to fluctuations in COGS.
 
 <details>
   <summary><strong>Key Features:</strong></summary>
