@@ -99,13 +99,13 @@ Implemented a Quadrant Analysis for SKU project to assess and categorize product
   <summary><strong>Key Features:</strong></summary>
 
   - **Metric Selection:**
-    - Identified and selected relevant metrics to evaluate SKU performance, considering factors such as sales volume, profitability, and market demand.
+    - Identified and selected relevant metrics to evaluate SKU performance, considering factors such as sales volume, profitability.
 
   - **Quadrant Definition:**
     - Developed a quadrant framework to categorize SKUs based on their performance in selected metrics, creating segments like High Performers, Low Performers, Stars, and Underachievers.
 
   - **Data Visualization:**
-    - Utilized advanced visualization tools to create interactive quadrant charts, providing a clear and intuitive overview of SKU positions.
+    - Create interactive quadrant charts using MS Excel visualization tools to provide a clear and intuitive overview of SKU positions.
 
   - **Dynamic Updates:**
     - Implemented dynamic updates to the quadrant analysis, ensuring real-time adjustments based on changing metrics and market conditions.
@@ -121,8 +121,7 @@ Implemented a Quadrant Analysis for SKU project to assess and categorize product
 <details>
   <summary><strong>Tools Used:</strong></summary>
 
-  - Python for data analysis and scripting.
-  - Matplotlib or similar for quadrant chart visualization.
+  - Utilized Microsoft BI tools for interactive data integration and visualization.
 
 </details>
 
@@ -142,7 +141,7 @@ Implemented a COGS Variance Analysis project to assess the impact of volume, mix
   <summary><strong>Key Features:</strong></summary>
 
   - **Variance Components Identification:**
-    - Adopted the methodology detailed in the provided link to identify and quantify volume, mix, and rate variances within the COGS.
+    - Adopted a standardized methodology to identify and quantify volume, mix, and rate variances within the COGS.
 
   - **Data Collection:**
     - Gathered relevant data from production records, sales reports, and cost accounting systems to facilitate the variance analysis.
@@ -157,15 +156,14 @@ Implemented a COGS Variance Analysis project to assess the impact of volume, mix
     - Conducted root cause analysis to identify the underlying factors contributing to variances, enabling targeted corrective actions.
 
   - **Continuous Monitoring:**
-    - Implemented a system for ongoing monitoring of COGS variances, ensuring timely intervention and adjustments in response to changing production conditions or market dynamics.
+    - By implementing a system for ongoing monitoring of COGS variances, it is possible to identify the root causes of the variances and take corrective action to prevent them from occurring in the future.
 
 </details>
 
 <details>
   <summary><strong>Tools Used:</strong></summary>
 
-  - Excel or similar spreadsheet software for data analysis.
-  - Data visualization tools as needed (e.g., Tableau, Power BI).
+  - Excel BI tools for data analysis and data visualization. 
 
 </details>
 
@@ -200,9 +198,7 @@ Deployed Automation Anywhere's Robotic Process Automation (RPA) to revolutionize
     - Conducted thorough testing and validation using Automation Anywhere's testing features, ensuring reliability and adherence to business rules.
 
   - **User Training and Collaboration:**
-    - Provided targeted training on Automation Anywhere's platform, empowering staff to interact with and monitor RPA bots. Utilized collaboration tools for seamless communication.
-
-</details>
+    - Provided targeted training on Automation Anywhere's platform, empowering staff to interact with and monitor RPA bots. </details>
 
 <details>
   <summary><strong>Tools Used:</strong></summary>
@@ -210,19 +206,16 @@ Deployed Automation Anywhere's Robotic Process Automation (RPA) to revolutionize
   - **Automation Anywhere RPA Platform:**
     - Leveraged Automation Anywhere's comprehensive platform for end-to-end RPA deployment and management.
 
-  - **Collaboration Tools:**
-    - Utilized collaboration tools for effective communication, user training, and collaborative problem-solving.
-
 </details>
 
 <details>
   <summary><strong>Outcome:</strong></summary>
 
-  The Automation Anywhere RPA implementation has successfully transformed various administrative tasks, unlocking substantial time savings, minimizing errors, and elevating overall operational efficiency. The user-friendly features of the Automation Anywhere platform have empowered staff to engage with and optimize RPA workflows seamlessly.
+  The Automation Anywhere RPA implementation has successfully transformed various administrative tasks, substantial time savings, minimizing errors, and elevating overall operational efficiency. 
 
 </details>
 
-# 6. SKU Costing Model Automation with Excel and VBA - October 2021 - Present
+# 6. SKU Costing Model Automation with Excel and VBA - October 2021 - June 2023
 
 ## Objective
 Successfully implemented an automated Costing Model for each SKU using Excel and Visual Basic for Applications (VBA). The project significantly reduces the time required for updating dry goods and raw meat costs, adjusting recipes, and calculating SKU costs. Tasks that previously took 2 days are now accomplished within hours, providing users with a dynamic and efficient tool for streamlined pricing decisions.
@@ -234,7 +227,7 @@ Successfully implemented an automated Costing Model for each SKU using Excel and
     - Developed a dynamic Excel template with VBA for SKU costing, drastically reducing the time needed for manual calculations.
 
   - **Data Integration:**
-    - Integrated external data sources for updated dry goods costs and raw meat costs, ensuring real-time information is processed within hours.
+    - Integrated external data sources for updated dry goods costs and raw meat costs, ensuring up to date information.
 
   - **Recipe Adjustment Interface:**
     - Designed an intuitive user interface to adjust recipes swiftly, accommodating changes in ingredient costs and quantities.
