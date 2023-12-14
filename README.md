@@ -1,4 +1,4 @@
-# 1. Labor Dashboard - April 2019 - 2023
+# 1. Labor Dashboard - April 2019 - June 2023
 
 ## Objective
 Designed and developed Labor Dashboard to analyze and visualize key performance indicators (KPIs) and performance metrics, providing actionable insights by comparing current metrics with the previous year and budgetary projections.
@@ -47,7 +47,7 @@ Designed and developed Labor Dashboard to analyze and visualize key performance 
 
 </details>
 
-# 2. SKU Listings Dashboard - May 2020 - Present
+# 2. SKU Listings Dashboard - May 2020 - June 2023
 
 ## Objective
 Developed an SKU Listings Dashboard to provide comprehensive analysis of each SKU's cost and its impact on profitability. Extracted valuable insights by transforming information from sales reports, profit and loss statements, and cost of goods sold (COGs), impact of labor costs and discounts. The primary goal is to analyze the cost breakdown for each SKU, tracing the values from sales revenue to net profit.
@@ -90,7 +90,7 @@ Developed an SKU Listings Dashboard to provide comprehensive analysis of each SK
 
 </details>
 
-# 3. Quadrant Analysis for SKU - September 2020 - Present
+# 3. Quadrant Analysis for SKU - September 2020 - June 2023
 
 ## Objective
 Implemented a Quadrant Analysis for SKU project to assess and categorize products based on key metrics. The analysis aims to provide a visual representation of SKU performance, allowing for strategic decision-making by identifying high-performing and low-performing products.
@@ -132,7 +132,7 @@ Implemented a Quadrant Analysis for SKU project to assess and categorize product
 
 </details>
 
-# 4. COGS Variance Analysis - February 2021 - Present
+# 4. COGS Variance Analysis - February 2021 - June 2023
 
 ## Objective
 Implemented a COGS Variance Analysis project to assess the impact of volume, mix, and rate variances on the cost of goods sold (COGS). The analysis follows the methodology outlined in [this link](https://8020consulting.com/manufacturing-cogs-variance-volume-mix-rate/), aiming to provide insights into the factors contributing to fluctuations in COGS.
@@ -174,7 +174,7 @@ Implemented a COGS Variance Analysis project to assess the impact of volume, mix
 
 </details>
 
-# 5. Automation Anywhere RPA Implementation - July 2021 - Present
+# 5. Automation Anywhere RPA Implementation - July 2021 - June 2023
 
 ## Objective
 Deployed Automation Anywhere's Robotic Process Automation (RPA) to revolutionize and automate various administrative tasks. The project aims to leverage the power of RPA to drive efficiency, accuracy, and time savings in daily operational workflows.
