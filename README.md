@@ -50,7 +50,7 @@ Designed and developed Labor Dashboard to analyze and visualize key performance 
 # 2. SKU Listings Dashboard - May 2020 - Present
 
 ## Objective
-Developed an SKU Listings Dashboard to provide a detailed analysis of each SKU's cost and its impact on profitability. The dashboard gathers information from sales reports, profit and loss statements, and cost of goods sold (COGs), including labor costs and the impact of discounts. The primary goal is to outline the cost breakdown for each SKU, tracking its journey from sales revenue to net profit.
+Developed an SKU Listings Dashboard to provide comprehensive analysis of each SKU's cost and its impact on profitability. Extracted valuable insights by transforming information from sales reports, profit and loss statements, and cost of goods sold (COGs), impact of labor costs and discounts. The primary goal is to analyze the cost breakdown for each SKU, tracing the values from sales revenue to net profit.
 
 <details>
   <summary><strong>Key Features:</strong></summary>
@@ -78,8 +78,8 @@ Developed an SKU Listings Dashboard to provide a detailed analysis of each SKU's
 <details>
   <summary><strong>Tools Used:</strong></summary>
 
-  - Microsoft Power BI for data integration and visualization.
   - Excel for detailed data analysis and calculations.
+  - Power Query, Power Pivot and defining measures if DAX for data integration and visualization.
 
 </details>
 
