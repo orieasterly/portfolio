@@ -9,10 +9,10 @@ Design and develop a Labor Dashboard to analyze and visualize key performance in
   <summary><strong>Key Responsibilities and Techniques Used:</strong></summary>
 
   - **Data Collection:**
-    - Gathered raw data from various sources within the manufacturing company, including production logs, employee records, and financial reports.
+    - Gathered raw data from various sources, including production logs, employee records, and financial reports.
 
   - **Data Processing and Cleaning:**
-    - Utilized Microsoft Power Query to clean and transform raw data into a usable format.
+    - Utilized Microsoft Power Query to clean and transform raw data.
     - Addressed missing or inconsistent data to ensure accuracy and reliability.
 
   - **Metric Definition and Calculation:**
@@ -108,9 +108,6 @@ Implemented a Quadrant Analysis for SKU project to assess and categorize product
   - **Data Visualization:**
     - Created interactive quadrant charts using MS Excel visualization tools to provide a clear and intuitive overview of SKU positions.
 
-  - **Dynamic Updates:**
-    - Implemented dynamic updates to the quadrant analysis, ensuring real-time adjustments based on changing metrics and market conditions.
-
   - **Strategic Insights:**
     - Extracted strategic insights from quadrant positions, aiding in inventory management, marketing strategies, and product development decisions.
 
@@ -157,14 +154,14 @@ Implemented a COGS Variance Analysis project to assess the impact of volume, mix
     - Conducted root cause analysis to identify the underlying factors contributing to variances, enabling targeted corrective actions.
 
   - **Continuous Monitoring:**
-    - Implemented a system for ongoing monitoring of COGS variances, identifying the root causes of the variances and taking corrective action to prevent them from occurring in the future.
+    - Implemented a system for ongoing monitoring of COGS variances, identifying the root causes of the variances and the corrective actions.
 
 </details>
 
 <details>
   <summary><strong>Tools Used:</strong></summary>
 
-  - Excel BI tools for data analysis and data visualization.
+  - Microsoft Excel BI tools for data analysis and data visualization.
 
 </details>
 
@@ -233,10 +230,10 @@ Successfully implemented an automated Costing Model for each SKU using Excel and
     - Integrated external data sources for updated dry goods costs and raw meat costs, ensuring up-to-date information.
 
   - **Recipe Adjustment Interface:**
-    - Designed an intuitive user interface to adjust recipes swiftly, accommodating changes in ingredient costs and quantities.
+    - Designed a user interface to adjust recipes and account for changes in ingredient costs and quantities.
 
   - **Cost Calculation Automation:**
-    - Automated cost calculations from raw meat cost through cooking and packing costs to final SKU costing, reducing the entire process to a matter of hours.
+    - Automated cost calculations from raw meat cost through cooking and packaging costs to final SKU costing, reducing the entire process to a matter of hours.
 
   - **Scenario Analysis:**
     - Incorporated scenario analysis capabilities, enabling users to simulate cost impacts rapidly based on various ingredient and production cost scenarios.
@@ -307,7 +304,7 @@ Successfully implemented a comprehensive Yields KPI Dashboard utilizing Power Qu
 <details>
   <summary><strong>Outcome:</strong></summary>
 
-  The Yields KPI Dashboard has successfully provided stakeholders with a powerful tool to monitor and optimize production yields. By combining Power Query and Excel, the project facilitates real-time decision-making and enables a comprehensive comparison of actual yields with established standards. The inclusion of historical data allows users to identify trends, anomalies, and areas for improvement in processing yields, ultimately enhancing operational efficiency and product quality.
+  The Yields KPI Dashboard has successfully provided stakeholders with a powerful tool to monitor production yields. By combining Power Query and Excel, the project facilitates real-time decision-making and enables a comprehensive comparison of actual yields with established standards. The inclusion of historical data allows users to identify trends, anomalies, and areas for improvement in processing yields, ultimately enhancing operational efficiency and product quality.
 
 </details>
 
