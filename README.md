@@ -121,7 +121,7 @@ Implemented a Quadrant Analysis for SKU project to assess and categorize product
 <details>
   <summary><strong>Tools Used:</strong></summary>
 
-  - Utilized Microsoft BI tools for interactive data integration and visualization.
+  - Microsoft BI tools for interactive data integration and visualization.
 
 </details>
 
@@ -247,10 +247,10 @@ Successfully implemented an automated Costing Model for each SKU using Excel and
   <summary><strong>Tools Used:</strong></summary>
 
   - **Microsoft Excel:**
-    - Leveraged Excel for creating dynamic templates, data integration, and user interface design, significantly expediting the process.
+    - For creating dynamic templates, data integration, and user interface design, significantly expediting the process.
 
   - **Visual Basic for Applications (VBA):**
-    - Utilized VBA to automate calculations, data manipulation, and enhance user interactivity, resulting in a remarkable reduction in processing time.
+    - VBA to automate calculations, data manipulation, and enhance user interactivity, resulting in a remarkable reduction in processing time.
 
 </details>
 
@@ -261,4 +261,49 @@ Successfully implemented an automated Costing Model for each SKU using Excel and
 
 </details>
 
+# 7. Yields KPI Dashboard Implementation with Power Query and Excel - August 2022 - April 2024
 
+## Objective
+Successfully implemented a comprehensive Yields KPI Dashboard utilizing Power Query and Excel to visualize the performance of production yields. The project provided stakeholders with information on processing, cooking, and finishing yields for each SKU and batch. The implemented dashboard enhances decision-making by offering a clear overview of production efficiency and enables the comparison of actual yields against established standards and previous periods.
+
+<details>
+  <summary><strong>Key Features:</strong></summary>
+
+  - **Data Integration with Power Query:**
+    - Utilized Power Query to integrate data from different sources, consolidating information on various stages for each SKU and batch.
+
+  - **Interactive Visualization:**
+    - Developed a dashboard to visualize and represent KPIs related to yields, enabling the user to interact with the data and extract a uniquely valuable overview of production efficiency.
+
+  - **Dynamic Updates for Real-Time Data:**
+    - Established automated processes for real-time data updates, ensuring that the dashboard reflects the latest ans most accurate information on processing yields.
+
+  - **Power Pivot for Advanced Data Analysis:**
+    - Leveraged Power Pivot to perform advanced data analysis, allowing stakeholders to drill down into specific SKU and batch details for in-depth insights.
+
+  - **SKU and Batch Tracking:**
+    - Established a tracking system for SKUs and batches, enabling users to monitor the entire production process from initial processing yields through cooking and finishing yields.
+
+  - **Performance Metrics and Standards Comparison:**
+    - Integrated key performance metrics into the interactive dashboard, enabling stakeholders to compare actual yields against established standards and analyze trends over previous periods. This interactive feature facilitates better decision-making and quality control.
+
+</details>
+
+<details>
+  <summary><strong>Tools Used:</strong></summary>
+
+  - **Power Query:**
+    - For efficient data extraction, transformation, and loading (ETL), ensuring seamless integration of data from various sources.
+
+  - **Power Pivot:**
+    - For creating an interactive and visually appealing dashboard, incorporating features for SKU and batch tracking and the comparison of actual yields with standards.
+    - For advanced data analysis, allowing users to explore detailed insights into SKU and batch-specific processing yields.
+
+</details>
+
+<details>
+  <summary><strong>Outcome:</strong></summary>
+
+  The Yields KPI Dashboard has successfully provided stakeholders with a powerful tool to monitor and optimize production yields. By combining Power Query and Excel, the project facilitates real-time decision-making and enables a comprehensive comparison of actual yields with established standards. The inclusion of historical data allows users to identify trends, anomalies, and areas for improvement in processing yields, ultimately enhancing operational efficiency and product quality.
+
+</details>
