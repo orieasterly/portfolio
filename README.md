@@ -1,7 +1,9 @@
+Catalog of major projects accomplished:
+
 # 1. Labor Dashboard - April 2019 - June 2023
 
 ## Objective
-Designed and developed Labor Dashboard to analyze and visualize key performance indicators (KPIs) and performance metrics, providing actionable insights by comparing current metrics with the previous year and budgetary projections.
+Design and develop a Labor Dashboard to analyze and visualize key performance indicators (KPIs), providing actionable insights by comparing current metrics with the previous year and budgetary projections.
 
 <details>
   <summary><strong>Key Responsibilities and Techniques Used:</strong></summary>
@@ -15,14 +17,14 @@ Designed and developed Labor Dashboard to analyze and visualize key performance 
 
   - **Metric Definition and Calculation:**
     - Defined key performance indicators (KPIs) such as Kg per man hour and cost per kg.
-    - Utilzing DAX - Microsoft Power Pivot to aggregrate and visualized data.
+    - Utilized DAX - Microsoft Power Pivot to aggregate and visualize data.
 
   - **Comparison Analysis:**
-    - Compare current performance metrics with performance from the previous year and establish budgetary targets.
+    - Compared current performance metrics with performance from the previous year and established budgetary targets.
 
   - **Visualization:**
-    - Data modeling and visualization With Microsoft Power Pivot.
-    - Interactive and intuitive dashboards to present key insights to stakeholders.
+    - Conducted data modeling and visualization with Microsoft Power Pivot.
+    - Developed interactive and intuitive dashboards to present key insights to stakeholders.
 
   - **Insightful Reporting:**
     - Created detailed reports highlighting trends, areas of improvement, and potential cost-saving opportunities.
@@ -36,21 +38,21 @@ Designed and developed Labor Dashboard to analyze and visualize key performance 
 <details>
   <summary><strong>Tools Used:</strong></summary>
 
-  - Microsoft Power Query and Power Pivot for data processing, analysis and interactive data visualization and dashboard creation.
+  - Microsoft Power Query and Power Pivot for data processing, analysis, and interactive data visualization and dashboard creation.
 
 </details>
 
 <details>
   <summary><strong>Outcome:</strong></summary>
 
-  The innovative Labor Dashboard provided the company with a timeline-based, dynamic overview of labor efficiency and cost performance. Stakeholders could make informed decisions based on the insights gained, leading to ongoing improvements in productivity and cost-effectiveness.
+  The innovative Labor Dashboard provides the company with a timeline-based, dynamic overview of labor efficiency and cost performance. Stakeholders can make informed decisions based on the insights gained, leading to ongoing improvements in productivity and cost-effectiveness.
 
 </details>
 
 # 2. SKU Listings Dashboard - May 2020 - June 2023
 
 ## Objective
-Developed an SKU Listings Dashboard to provide comprehensive analysis of each SKU's cost and its impact on profitability. Extracted valuable insights by transforming information from sales reports, profit and loss statements, and cost of goods sold (COGs), impact of labor costs and discounts. The primary goal is to analyze the cost breakdown for each SKU, tracing the values from sales revenue to net profit.
+Develop an SKU Listings Dashboard to provide a comprehensive analysis of each SKU's cost and its impact on profitability. Extract valuable insights by transforming information from sales reports, profit and loss statements, and cost of goods sold (COGs), the impact of labor costs and discounts. The primary goal is to analyze the cost breakdown for each SKU, tracing the values from sales revenue to net profit.
 
 <details>
   <summary><strong>Key Features:</strong></summary>
@@ -79,7 +81,7 @@ Developed an SKU Listings Dashboard to provide comprehensive analysis of each SK
   <summary><strong>Tools Used:</strong></summary>
 
   - Excel for detailed data analysis and calculations.
-  - Power Query, Power Pivot and defining measures if DAX for data integration and visualization.
+  - Power Query, Power Pivot, and defining measures if DAX for data integration and visualization.
 
 </details>
 
@@ -89,7 +91,6 @@ Developed an SKU Listings Dashboard to provide comprehensive analysis of each SK
   The SKU Listings Dashboard offers a comprehensive view of the cost breakdown for each SKU, highlighting the impact of discounts and providing insights into the profitability of each product. Stakeholders can make informed decisions regarding pricing, inventory management, and overall business strategy.
 
 </details>
-
 # 3. Quadrant Analysis for SKU - September 2020 - June 2023
 
 ## Objective
@@ -105,7 +106,7 @@ Implemented a Quadrant Analysis for SKU project to assess and categorize product
     - Developed a quadrant framework to categorize SKUs based on their performance in selected metrics, creating segments like High Performers, Low Performers, Stars, and Underachievers.
 
   - **Data Visualization:**
-    - Create interactive quadrant charts using MS Excel visualization tools to provide a clear and intuitive overview of SKU positions.
+    - Created interactive quadrant charts using MS Excel visualization tools to provide a clear and intuitive overview of SKU positions.
 
   - **Dynamic Updates:**
     - Implemented dynamic updates to the quadrant analysis, ensuring real-time adjustments based on changing metrics and market conditions.
@@ -156,14 +157,14 @@ Implemented a COGS Variance Analysis project to assess the impact of volume, mix
     - Conducted root cause analysis to identify the underlying factors contributing to variances, enabling targeted corrective actions.
 
   - **Continuous Monitoring:**
-    - By implementing a system for ongoing monitoring of COGS variances, it is possible to identify the root causes of the variances and take corrective action to prevent them from occurring in the future.
+    - Implemented a system for ongoing monitoring of COGS variances, identifying the root causes of the variances and taking corrective action to prevent them from occurring in the future.
 
 </details>
 
 <details>
   <summary><strong>Tools Used:</strong></summary>
 
-  - Excel BI tools for data analysis and data visualization. 
+  - Excel BI tools for data analysis and data visualization.
 
 </details>
 
@@ -198,7 +199,9 @@ Deployed Automation Anywhere's Robotic Process Automation (RPA) to revolutionize
     - Conducted thorough testing and validation using Automation Anywhere's testing features, ensuring reliability and adherence to business rules.
 
   - **User Training and Collaboration:**
-    - Provided targeted training on Automation Anywhere's platform, empowering staff to interact with and monitor RPA bots. </details>
+    - Provided targeted training on Automation Anywhere's platform, empowering staff to interact with and monitor RPA bots.
+
+</details>
 
 <details>
   <summary><strong>Tools Used:</strong></summary>
@@ -211,7 +214,7 @@ Deployed Automation Anywhere's Robotic Process Automation (RPA) to revolutionize
 <details>
   <summary><strong>Outcome:</strong></summary>
 
-  The Automation Anywhere RPA implementation has successfully transformed various administrative tasks, substantial time savings, minimizing errors, and elevating overall operational efficiency. 
+  The Automation Anywhere RPA implementation has successfully transformed various administrative tasks, substantial time savings, minimizing errors, and elevating overall operational efficiency.
 
 </details>
 
@@ -227,7 +230,7 @@ Successfully implemented an automated Costing Model for each SKU using Excel and
     - Developed a dynamic Excel template with VBA for SKU costing, drastically reducing the time needed for manual calculations.
 
   - **Data Integration:**
-    - Integrated external data sources for updated dry goods costs and raw meat costs, ensuring up to date information.
+    - Integrated external data sources for updated dry goods costs and raw meat costs, ensuring up-to-date information.
 
   - **Recipe Adjustment Interface:**
     - Designed an intuitive user interface to adjust recipes swiftly, accommodating changes in ingredient costs and quantities.
@@ -276,7 +279,7 @@ Successfully implemented a comprehensive Yields KPI Dashboard utilizing Power Qu
     - Developed a dashboard to visualize and represent KPIs related to yields, enabling the user to interact with the data and extract a uniquely valuable overview of production efficiency.
 
   - **Dynamic Updates for Real-Time Data:**
-    - Established automated processes for real-time data updates, ensuring that the dashboard reflects the latest ans most accurate information on processing yields.
+    - Established automated processes for real-time data updates, ensuring that the dashboard reflects the latest and most accurate information on processing yields.
 
   - **Power Pivot for Advanced Data Analysis:**
     - Leveraged Power Pivot to perform advanced data analysis, allowing stakeholders to drill down into specific SKU and batch details for in-depth insights.
@@ -307,3 +310,4 @@ Successfully implemented a comprehensive Yields KPI Dashboard utilizing Power Qu
   The Yields KPI Dashboard has successfully provided stakeholders with a powerful tool to monitor and optimize production yields. By combining Power Query and Excel, the project facilitates real-time decision-making and enables a comprehensive comparison of actual yields with established standards. The inclusion of historical data allows users to identify trends, anomalies, and areas for improvement in processing yields, ultimately enhancing operational efficiency and product quality.
 
 </details>
+
