@@ -1,0 +1,11 @@
+DEFINE
+    MEASURE 'Calendar'[Start Of Month] = STARTOFMONTH('Calendar'[Month])
+    MEASURE 'Calendar'[End of Month] = EOMONTH('Calendar'[Start Of Month], 0)
+	MEASURE 'Calendar'[Net Work Days] =SUMX('Calendar', NETWORKDAYS('Calendar'[Start Of Month], 'Calendar'[End of Month], 1))
+
+EVALUATE
+    SUMMARIZECOLUMNS(
+		"Start Of Month", 'Calendar'[Start Of Month],
+        "End of Month", 'Calendar'[End of Month],
+		"Net Work Days", 'Calendar'[Net Work Days]
+    )
