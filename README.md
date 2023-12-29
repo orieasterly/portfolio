@@ -308,3 +308,51 @@ Successfully implemented a comprehensive Yields KPI Dashboard utilizing Power Qu
 
 </details>
 
+
+# 8. Capital Expenditure Tracking System - November 2022 - Ongoing
+## Objective
+Initiated the development and implementation of a comprehensive Capital Expenditure Tracking System to streamline the monitoring and analysis of all capital investments within the organization. The system aims to enhance decision-making by providing real-time insights into project statuses, budget adherence, and return on investment.
+
+<details>
+ <summary><strong>Key Features:</strong></summary>
+Project Data Integration:
+
+Implemented a system to consolidate project data from various departments, ensuring a centralized and accurate repository.
+
+Real-time Budget Monitoring:
+
+Developed features for real-time tracking of project budgets, enabling stakeholders to monitor expenditures against approved budgets.
+
+Milestone and Timeline Tracking:
+
+Integrated milestone tracking functionalities to ensure projects adhere to timelines and meet predefined milestones.
+
+Return on Investment (ROI) Analysis:
+
+Incorporated tools for calculating and visualizing the return on investment for each capital project, aiding in the prioritization of future investments.
+
+User Access and Collaboration:
+
+Implemented user access controls to ensure data security and encouraged collaboration among relevant teams involved in capital expenditure decisions.
+
+Automated Reporting:
+
+Established automated reporting mechanisms to generate regular reports on project statuses, budget variances, and ROI.
+
+</details>
+<details>
+ <summary><strong>Tools Used:</strong></summary>
+Project Management Software:
+
+Integrated project management software to facilitate data integration, milestone tracking, and real-time budget monitoring.
+
+Data Visualization Tools:
+
+Utilized data visualization tools for creating interactive dashboards and reports, enhancing accessibility for stakeholders.
+
+</details>
+<details>
+ <summary><strong>Outcome:</strong></summary>
+The ongoing Capital Expenditure Tracking System project has already improved the organization's ability to monitor and manage capital investments effectively. Stakeholders now have access to real-time data, enabling informed decision-making, proactive issue resolution, and optimization of capital allocation for improved overall financial performance.
+
+</details>
