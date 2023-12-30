@@ -86,7 +86,7 @@ By visualizing SKU profitability dynamics, the dashboard empowers stakeholders t
 # 3. Unveiling Strategic Insights with Quadrant Analysis for SKUs (September 2020 - June 2023)
 
 ## Objective
-- Implement a comprehensive Quadrant Analysis for SKUs, unveiling strategic insights for data-driven decision-making across product management, inventory optimization, and marketing strategies.
+- Implement a comprehensive Quadrant Analysis for SKUs, to uncover strategic insights for data-driven decision-making across product management, inventory optimization, and marketing strategies.
 - Classify SKUs based on performance against key metrics to reveal high-potential opportunities and areas for improvement.
 
 <details>
@@ -94,7 +94,7 @@ By visualizing SKU profitability dynamics, the dashboard empowers stakeholders t
 - **Strategic Metric Selection:**
   - Identified and selected relevant metrics reflecting SKU performance, considering factors such as sales volume, profitability, market share, and customer satisfaction scores.
 - **Dynamic Quadrant Framework:**
-  - Developed a versatile quadrant framework to categorize SKUs based on performance, creating meaningful segments such as Stars, Cash Cows, Question Marks, and Dogs.
+  - Developed a versatile quadrant framework to categorize SKUs based on performance, creating meaningful segments such as High Flyers, Stable Streamers, Challengers, and Laggards..
 - **Interactive Data Visualization:**
   - Created engaging and interactive quadrant charts using Microsoft Excel's visualization tools.
 - **Actionable Insights and Strategies:**
@@ -108,7 +108,7 @@ By visualizing SKU profitability dynamics, the dashboard empowers stakeholders t
 </details>
 <details>
 <summary><strong>Outcome:</strong></summary>
-**Unlocking Strategic Opportunities for SKU Excellence:**
+**Highlight Strategic Opportunities for SKU Excellence:**
 The Quadrant Analysis for SKUs stands as a powerful decision-support tool, providing a dynamic representation of product performance. Key outcomes include:
 
 - Enhanced visibility into SKU performance for data-driven decision-making.
@@ -124,7 +124,7 @@ By bringing SKU performance to life through compelling visualizations, the Quadr
 
 ## Objective
 - Implement a robust COGS Variance Analysis project to identify the underlying drivers of fluctuations in the cost of goods sold (COGS).
-- Meticulously isolate and quantify the impact of volume, mix, and rate variances to optimize production processes, manage costs effectively, and drive profitability.
+- Quantify the impact of volume, mix, and rate variances to optimize production processes, manage costs effectively, and drive profitability.
 
 <details>
 <summary><strong>Key Features:</strong></summary>
@@ -136,10 +136,6 @@ By bringing SKU performance to life through compelling visualizations, the Quadr
   - Developed a robust framework for isolating and examining each variance component individually, enabling a granular understanding of their distinct contributions to COGS fluctuations.
 - **Illuminating Visualizations for Clarity:**
   - Utilized compelling visual representations, including interactive charts and dashboards, to communicate the impact of each variance category effectively.
-- **Uncovering Root Causes with Precision:**
-  - Conducted thorough root cause analysis to pinpoint the factors contributing to each variance, enabling targeted corrective actions and optimization strategies.
-- **Continuous Monitoring for Agility:**
-  - Established a system for ongoing monitoring of COGS variances, ensuring timely identification of emerging trends and potential issues.
 </details>
 <details>
 <summary><strong>Tools Used:</strong></summary>
@@ -193,15 +189,13 @@ The Automation Anywhere RPA implementation has delivered a remarkable transforma
 - Substantial time savings with a significant reduction in manual, repetitive tasks.
 - Minimization of errors and enhanced accuracy through automated processes.
 - Boosted operational efficiency, streamlined workflows, and accelerated task completion.
-- Unleashed human potential by redirecting expertise towards more strategic and creative endeavors.
-- Established agile and scalable operations, fostering continuous improvement.
-
+- Automation enables a shift towards more strategic initiatives and creative problem-solving to established, agile, and scalable operations, driving continuous improvement.
 </details>
 
 # 6. Enhancing Efficiency and Agility in SKU Costing with Excel and VBA (October 2021 - June 2023)
 
 ## Objective
-- Create an exceptional SKU Costing Automation model with Microsoft Excel and Visual Basic for Applications (VBA).
+- Create an intuitive SKU Costing Automation model with Microsoft Excel and Visual Basic for Applications (VBA).
 - Empower stakeholders with dynamic, real-time cost insights for fast, data-driven pricing decisions.
 
 <details>
@@ -243,7 +237,7 @@ Create an exceptional Yields KPI Dashboard using Power Query and Excel. Empower 
 - **Seamless Data Integration:**
   - Masterfully integrated diverse data streams using Power Query for a unified view of processing, cooking, and finishing yields for each SKU and batch.
 - **Interactive Visual Storytelling:**
-  - Crafted an engaging dashboard that decodes yield KPIs, enabling users to explore data for actionable insights.
+  - Developed an engaging dashboard that focus on yield KPIs, enabling users to explore data for actionable insights.
 - **Real-Time Data Pulse:**
   - Established automated processes for the dashboard to reflect the most current and accurate yield information.
 - **Advanced Analytics Unleashed:**
@@ -302,5 +296,5 @@ Initiate the development and implementation of a comprehensive Capital Expenditu
 
 <details>
 <summary><strong>Outcome:</strong></summary>
-The ongoing Capital Expenditure Tracking System project has improved the organization's ability to monitor and manage capital investments effectively. Stakeholders now have access to real-time data, enabling informed decision-making, proactive issue resolution, and optimization of capital allocation for improved overall financial performance.
+The ongoing Capital Expenditure Tracking System project has improved the organization's ability to monitor and manage capital investments effectively. Stakeholders have access to real-time data, enabling informed decision-making, proactive issue resolution, and optimization of capital allocation for improved overall financial performance.
 </details>
