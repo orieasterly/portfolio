@@ -10,26 +10,26 @@ Gain real-time insights into labor performance with a dedicated Labor Dashboard.
 - **Data Collection:**
   - Consolidated raw data from diverse sources, including production logs, employee records, and financial reports, to create a comprehensive dataset.
 - **Data Processing and Cleaning:**
-  - Leveraged Microsoft Power Query to meticulously clean and transform raw data, ensuring accuracy and reliability for analysis.
+  - Leveraged Microsoft Power Query to clean and transform raw data, ensuring accuracy and reliability for analysis.
   - Proactively addressed missing or inconsistent data to maintain data integrity.
 - **Metric Definition and Calculation:**
-  - Strategically defined key performance indicators (KPIs), such as Kg per man hour and cost per kg, aligning with organizational goals and performance benchmarks.
-  - Utilized DAX within Microsoft Power Pivot to effectively aggregate and visualize data, enabling insightful analysis.
+  - Defined and compute key performance indicators (KPIs), such as Kg per man hour and cost per kg, aligning with organizational goals and performance benchmarks.
+  - Utilized DAX with Microsoft Power Pivot to effectively aggregate and visualize data, enabling insightful analysis.
 - **Comparison Analysis:**
   - Facilitated comprehensive comparisons of current performance metrics against previous year's data and established budgetary targets, highlighting trends and deviations.
 - **Visualization:**
   - Built interactive and visually compelling dashboards using Microsoft Power Pivot, enabling stakeholders to effortlessly explore and grasp key labor insights.
   - Incorporated meaningful data visualizations, such as KPI charts, trend lines, and comparison tables, to enhance understanding and communication of results.
 - **Insightful Reporting:**
-  - Crafted detailed reports that encapsulated critical trends, pinpointed areas ripe for improvement, and identified potential cost-saving opportunities.
+  - Crafted detailed reports that encapsulated critical trends, pinpointed areas for improvement, and identified potential cost-saving opportunities.
   - Provided actionable recommendations grounded in data-driven analysis, fostering strategic initiatives to optimize labor efficiency and cost-effectiveness.
 - **Iterative Improvement:**
-  - Championed continuous improvement through weekly updates and stakeholder discussions, incorporating feedback to refine dashboard functionality and user experience.
+  - Delivered continuous improvement through weekly updates and stakeholder discussions, incorporating feedback to refine dashboard functionality and user experience.
 </details>
 
 <details>
 <summary><strong>Tools and Technologies:</strong></summary>
-- Microsoft Power Query and Power Pivot: Data processing, analysis, and interactive data visualization for dashboard creation.
+- Microsoft Power Query and Power Pivot: Data processing, analysis, and interactive data visualization for dashboard.
 </details>
 
 <details>
@@ -37,9 +37,9 @@ Gain real-time insights into labor performance with a dedicated Labor Dashboard.
 
 The Labor Dashboard delivers a dynamic, timeline-based overview of labor efficiency and cost performance, empowering stakeholders with actionable insights to drive continuous improvement. Key outcomes include:
 - Enhanced visibility into labor trends and patterns, enabling proactive decision-making.
-- Identification of areas for optimization, leading to increased productivity and cost savings.
+- Identified areas for optimization, led to increased productivity and cost savings.
 - Informed resource allocation and strategic workforce planning.
-- Promotion of data-driven decision-making culture, fostering a performance-oriented environment.
+- Avocated for data-driven decision-making culture, fostered a performance-oriented environment.
 </details>
 
 ---
@@ -47,8 +47,8 @@ The Labor Dashboard delivers a dynamic, timeline-based overview of labor efficie
 # 2. SKU Listings Dashboard: Decoding Profitability for Strategic Decisions (May 2020 - June 2023)
 
 ## Objective
-- Develop a dynamic SKU Listings Dashboard to empower stakeholders in decoding the profitability of each SKU.
-- Unravel the cost structure's impact on business outcomes by seamlessly integrating and transforming data from various sources.
+- Develop a dynamic SKU Listings Dashboard to empower stakeholders to interpret the profitability of each SKU.
+- Hightlight the cost structure's impact on business outcomes by seamlessly integrating and transforming data from various sources.
 - Provide actionable insights for informed decision-making in pricing, inventory management, and strategic business optimization.
 
 <details>
@@ -64,11 +64,11 @@ The Labor Dashboard delivers a dynamic, timeline-based overview of labor efficie
 - **Interactive Dashboards:**
   - Developed interactive dashboards for users to drill down into specific SKUs, fostering proactive decision-making.
 - **Iterative Refinement:**
-  - Championed continuous improvement through ongoing refinement based on user feedback, ensuring dashboard functionality aligns with evolving needs.
+  - Led the charge for continuous improvement through ongoing refinement based on user feedback, ensuring dashboard functionality aligns with evolving needs.
 </details>
 <details>
 <summary><strong>Tools Used:</strong></summary>
-- Microsoft Power Query and Power Pivot: Data processing, analysis, and interactive data visualization for dashboard creation.
+- Microsoft Power Query and Power Pivot: Data processing, analysis, and interactive data visualization.
 </details>
 <details>
 <summary><strong>Outcome:</strong></summary>
@@ -76,9 +76,8 @@ The Labor Dashboard delivers a dynamic, timeline-based overview of labor efficie
 The SKU Listings Dashboard serves as a comprehensive decision-support tool, offering clear views of cost breakdowns for each SKU, impact of discounts, and providing actionable insights into individual product profitability. Key outcomes include:
 
 - Enhanced visibility into SKU-level profitability for data-driven pricing strategies and inventory optimization.
-- Identification of opportunities to streamline costs and maximize profit margins.
 - Informed decision-making regarding product mix and strategic resource allocation.
-- Promotion of a data-driven culture, fostering continuous improvement and profitability growth.
+- Promoted a data centric culture, fostering continuous improvement and profitability growth.
 **Visualizing Profitability for Strategic Advantage:**
 By visualizing SKU profitability dynamics, the dashboard empowers stakeholders to make informed decisions that drive business growth and profitability.
 
