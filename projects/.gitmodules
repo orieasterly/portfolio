@@ -1,6 +1,3 @@
-[submodule "BI Project"]
-	path = BI Project
+[submodule "portfolio"]
+	path = portfolio
 	url = https://github.com/orieasterly/portfolio/projects
-[submodule "projects"]
-	path = projects
-	url = https://github.com/orieasterly/portfolio/
