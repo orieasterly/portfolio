@@ -1,5 +1,5 @@
 Catalog of major projects accomplished:
-# 1. Data-Driven Decisions - Unleashing the Power of Labor Insights: Labor Dashboard - April 2019 - June 2023
+# 1. Data-Driven Decisions - Unleashing the Power of Labor Insights ( April 2019 - June 2023 )
 
 ## Objective
 Gain real-time insights into labor performance with a dedicated Labor Dashboard. This tool analyzes and visualizes crucial KPIs, comparing current metrics to both previous year data and budgetary projections, and provides actionable recommendations to improve efficiency and effectiveness.
@@ -44,7 +44,7 @@ The Labor Dashboard delivers a dynamic, timeline-based overview of labor efficie
 
 ---
 
-# 2. Decoding SKU Data for Strategic Decision-Making: SKU Listings Dashboard  (May 2020 - June 2023)
+# 2. Decoding SKU Data for Strategic Decision-Making: SKU Listings Dashboard  ( May 2020 - June 2023 )
 
 ## Objective
 - Develop a dynamic SKU Listings Dashboard to empower stakeholders to interpret the profitability of each SKU.
@@ -86,7 +86,7 @@ By visualizing SKU profitability dynamics, the dashboard empowers stakeholders t
 ---
 
 
-# 3. Unveiling Strategic Insights with Quadrant Analysis for SKUs (September 2020 - June 2023)
+# 3. Unveiling Strategic Insights with Quadrant Analysis for SKUs ( September 2020 - June 2023 )
 
 ## Objective
 - Implement a comprehensive Quadrant Analysis for SKUs, to uncover strategic insights for data-driven decision-making across product management, inventory optimization, and marketing strategies.
@@ -126,7 +126,7 @@ By bringing SKU performance to life through compelling visualizations, the Quadr
 ---
 
 
-# 4. Quantifying Cost Drivers: The Impact of COGS Variance Analysis (February 2021 - June 2023)
+# 4. Quantifying Cost Drivers: The Impact of COGS Variance Analysis ( February 2021 - June 2023 )
 
 ## Objective
 - Implement a robust COGS Variance Analysis project to identify the underlying drivers of fluctuations in the cost of goods sold (COGS).
@@ -165,7 +165,7 @@ Making COGS variances tangible and actionable through intuitive visualizations, 
 ---
 
 
-# 5. Optimizing Efficiency and Accuracy with Automation Anywhere RPA (July 2021 - June 2023)
+# 5. Optimizing Efficiency and Accuracy with Automation Anywhere RPA ( July 2021 - June 2023 )
 
 ## Objective
 - Harness the power of Automation Anywhere's Robotic Process Automation (RPA) to redefine administrative tasks.
@@ -204,7 +204,7 @@ The Automation Anywhere RPA implementation has delivered a remarkable transforma
 ---
 
 
-# 6. Streamlining SKU Costing Calculations: Automating Efficiency and Agile Decision-Making with Excel and VBA (October 2021 - June 2023)
+# 6. Streamlining SKU Costing Calculations: Automating Efficiency and Agile Decision-Making with Excel and VBA ( October 2021 - June 2023 )
 
 ## Objective
 - Create an intuitive SKU Costing Automation model with Microsoft Excel and Visual Basic for Applications (VBA).
@@ -240,7 +240,7 @@ The automated SKU Costing Model has redefined SKU costing, unlocking efficiency 
 ---
 
 
-# 7. Driving Strategic Decisions with Real-Time Yields KPIs (August 2022 - June 2023)
+# 7. Driving Strategic Decisions with Real-Time Yields KPIs ( August 2022 - June 2023 )
 
 ## Transforming Data into Actionable Insights
 **Objective:**
@@ -283,7 +283,7 @@ The Yields KPI Dashboard empowers stakeholders with real-time visibility into yi
 ---
 
 
-# 8. Quantifying Equipment Decisions - Cost & ROI Analysis: Capital Expenditure Tracking System - November 2020 - June 2023
+# 8. Quantifying Equipment Decisions - Cost & ROI Analysis: Capital Expenditure Tracking System ( November 2020 - June 2023 )
 
 ## Objective
 Initiate the development and implementation of a comprehensive Capital Expenditure Tracking System. Streamline the monitoring and analysis of capital investments to enhance decision-making with real-time insights into project statuses, budget adherence, and return on investment.
