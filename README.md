@@ -83,6 +83,9 @@ By visualizing SKU profitability dynamics, the dashboard empowers stakeholders t
 
 </details>
 
+---
+
+
 # 3. Unveiling Strategic Insights with Quadrant Analysis for SKUs (September 2020 - June 2023)
 
 ## Objective
@@ -120,6 +123,9 @@ By bringing SKU performance to life through compelling visualizations, the Quadr
 
 </details>
 
+---
+
+
 # 4. Quantifying Cost Drivers: The Impact of COGS Variance Analysis (February 2021 - June 2023)
 
 ## Objective
@@ -155,6 +161,9 @@ The COGS Variance Analysis project delivers a comprehensive understanding of key
 Making COGS variances tangible and actionable through intuitive visualizations, the analysis empowers stakeholders to make informed decisions that drive cost efficiency, profitability, and overall business success.
 
 </details>
+
+---
+
 
 # 5. Optimizing Efficiency and Accuracy with Automation Anywhere RPA (July 2021 - June 2023)
 
@@ -192,6 +201,9 @@ The Automation Anywhere RPA implementation has delivered a remarkable transforma
 - Automation enables a shift towards more strategic initiatives and creative problem-solving to established, agile, and scalable operations, driving continuous improvement.
 </details>
 
+---
+
+
 # 6. Streamlining SKU Costing Calculations: Automating Efficiency and Agile Decision-Making with Excel and VBA (October 2021 - June 2023)
 
 ## Objective
@@ -224,6 +236,9 @@ The Automation Anywhere RPA implementation has delivered a remarkable transforma
 The automated SKU Costing Model has redefined SKU costing, unlocking efficiency and insight with a drastic reduction in task completion times. The project delivers a user-friendly and adaptable solution, enabling stakeholders to make informed pricing decisions with increased speed and confidence, guided by real-time cost data and robust scenario analysis capabilities.
 
 </details>
+
+---
+
 
 # 7. Driving Strategic Decisions with Real-Time Yields KPIs (August 2022 - June 2023)
 
@@ -265,6 +280,8 @@ The Yields KPI Dashboard empowers stakeholders with real-time visibility into yi
 
 </details>
 
+---
+
 
 # 8. Quantifying Equipment Decisions - Cost & ROI Analysis: Capital Expenditure Tracking System - November 2020 - June 2023
 
@@ -298,3 +315,6 @@ Initiate the development and implementation of a comprehensive Capital Expenditu
 <summary><strong>Outcome:</strong></summary>
 The ongoing Capital Expenditure Tracking System project has improved the organization's ability to monitor and manage capital investments effectively. Stakeholders have access to real-time data, enabling informed decision-making, proactive issue resolution, and optimization of capital allocation for improved overall financial performance.
 </details>
+
+---
+
