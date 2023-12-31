@@ -1,5 +1,5 @@
 Catalog of major projects accomplished:
-# 1. Data-Driven Decision - Unleashing the Power of Labor Insights: Labor Dashboard - April 2019 - June 2023
+# 1. Data-Driven Decisions - Unleashing the Power of Labor Insights: Labor Dashboard - April 2019 - June 2023
 
 ## Objective
 Gain real-time insights into labor performance with a dedicated Labor Dashboard. This tool analyzes and visualizes crucial KPIs, comparing current metrics to both previous year data and budgetary projections, and provides actionable recommendations to improve efficiency and effectiveness.
