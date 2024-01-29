@@ -1,0 +1,91 @@
+DEFINE
+    MEASURE 'Dataset'[Cost per KG] = DIVIDE(SUM('Dataset'[Product KG]), SUM('Dataset'[Labor Cost]), 0)
+    MEASURE 'Dataset'[Cost per KG Budget] = DIVIDE([Labor Cost Budget], 'Dataset'[Production VOL Budget], 0)
+    MEASURE 'Dataset'[Cost per KG CY] = DIVIDE([Labor Cost CY], 'Dataset'[Production VOL CY], 0)
+    MEASURE 'Dataset'[Cost per KG PY] = DIVIDE([Labor Cost PY], 'Dataset'[Production VOL PY], 0)
+    MEASURE 'Dataset'[Cost per KG VAR] = DIVIDE([Cost per KG CY],[Cost per KG Budget], 1)-1
+    MEASURE 'Dataset'[Production VOL CY] = CALCULATE(SUM('Dataset'[Product KG]), 'KEY'[KEY]="CY" )
+    MEASURE 'Dataset'[Production VOL PY] = CALCULATE(SUM('Dataset'[Product KG]), 'KEY'[KEY]="PY" )
+    MEASURE 'Dataset'[Production VOL Budget] = CALCULATE(SUM('Dataset'[Product KG]), 'KEY'[KEY]="Budget" )
+    MEASURE 'Dataset'[Production] = CALCULATE(SUM('Dataset'[Product KG]) )
+    MEASURE 'Dataset'[Production VOL Var] = DIVIDE([Production VOL CY],  [Production VOL Budget], 1) -1
+    MEASURE 'Dataset'[Labor Hours CY] = CALCULATE(SUM('Dataset'[Labor Hours]), 'KEY'[KEY]="CY")
+    MEASURE 'Dataset'[Labor Hours PY] = CALCULATE(SUM('Dataset'[Labor Hours]), 'KEY'[KEY]="PY")
+    MEASURE 'Dataset'[Labor Hours Budget] = CALCULATE(SUM('Dataset'[Labor Hours]), 'KEY'[KEY]="Budget")
+    MEASURE 'Dataset'[Labor Efficiency Ratio] = //Efficiency ratio:
+		//expected direct labour hours of actual output / actual direct labour hours worked
+		var expLabor = DIVIDE([Production VOL CY], [Production Yield per Labor Hour Budget],  0)
+		RETURN DIVIDE(expLabor, [Labor Hours CY], 0)
+    MEASURE 'Dataset'[Production Yield per Labor Hour CY] = DIVIDE([Production VOL CY], [Labor Hours CY], 0)
+    MEASURE 'Dataset'[Production Yield per Labor Hour Budget] = DIVIDE([Production VOL Budget], [Labor Hours Budget], 0)
+    MEASURE 'Dataset'[Production Yield VAR] = DIVIDE([Production Yield per Labor Hour CY], [Production Yield per Labor Hour Budget], 1) -1
+    MEASURE 'Dataset'[Var Target] = 1
+    MEASURE 'Dataset'[Labor Cost CY] = CALCULATE(SUM('Dataset'[Labor Cost]), 'KEY'[KEY]="CY")
+    MEASURE 'Dataset'[Labor Cost PY] = CALCULATE(SUM('Dataset'[Labor Cost]), 'KEY'[KEY]="PY")
+    MEASURE 'Dataset'[Labor Cost Budget] = CALCULATE(SUM('Dataset'[Labor Cost]), 'KEY'[KEY]="Budget")
+    MEASURE 'Dataset'[VOL Variance] = // This measures the difference in cost or productivity due to changes in production volume.
+		//  (negative means reduced cost due to lower volume)
+		([Production VOL CY] - [Production VOL Budget]) *([Labor Cost Budget]/[Production VOL Budget])
+    MEASURE 'Dataset'[Productivity Variance] = // This measures the difference in cost or productivity due to changes in labor efficiency. 
+	// (negative means reduced productivity, leading to higher cost)
+		//([VOL Variance])- 
+		(([Labor Cost CY]/[Production VOL CY])-([Labor Cost Budget]/[Production VOL Budget]))
+		*[Production VOL CY]
+    MEASURE 'Dataset'[Rate Variance] = // This measures the difference in cost due to changes in labor cost per hour	
+	// (increase in hourly rate, leading to higher cost)
+		// ([Productivity Variance])-
+		([Labor Cost CY]-[Labor Cost Budget])/ [Labor Hours Budget]
+    MEASURE 'Dataset'[Production Efficiency Variance] = [VOL Variance]+[Productivity Variance]+[Rate Variance]
+    MEASURE 'Dataset'[Labor Cost Variance] = // This measures the difference in cost due to changes in labor cost per hour	
+	// (increase in hourly rate, leading to higher cost)
+		// ([Productivity Variance])-
+		([Cost per KG CY]-[Cost per KG Budget])*[Production VOL CY]
+    MEASURE 'Dataset'[Labor Hours Total] = CALCULATE(SUM('Dataset'[Labor Hours]))
+    MEASURE 'Dataset'[Cost per KG VAR PY] = DIVIDE([Cost per KG CY],[Cost per KG PY], 1)-1
+    MEASURE 'Dataset'[FTE Total] = [Labor Hours Total]/[FTE Hours Total]
+    MEASURE 'Dataset'[Production Yield Total] = [Production]/[Labor Hours Total]
+    MEASURE 'Fiscal Calendar'[Start Of Month] = STARTOFMONTH('Fiscal Calendar'[Month])
+    MEASURE 'Fiscal Calendar'[End of Month] = EOMONTH('Fiscal Calendar'[Start Of Month], 0)
+    MEASURE 'Fiscal Calendar'[Net Work Days] = SUMX('Fiscal Calendar', NETWORKDAYS('Fiscal Calendar'[Start Of Month], 'Fiscal Calendar'[End of Month], 1))
+    MEASURE 'Fiscal Calendar'[FTE Hours Total] = CALCULATE(
+		SUMX(
+         'Fiscal Calendar', [Net Work Days]
+   		)*8)
+
+EVALUATE
+    SUMMARIZECOLUMNS(
+        "Cost per KG", 'Dataset'[Cost per KG],
+        "Cost per KG Budget", 'Dataset'[Cost per KG Budget],
+        "Cost per KG CY", 'Dataset'[Cost per KG CY],
+        "Cost per KG PY", 'Dataset'[Cost per KG PY],
+        "Cost per KG VAR", 'Dataset'[Cost per KG VAR],
+        "Production VOL CY", 'Dataset'[Production VOL CY],
+        "Production VOL PY", 'Dataset'[Production VOL PY],
+        "Production VOL Budget", 'Dataset'[Production VOL Budget],
+        "Production", 'Dataset'[Production],
+        "Production VOL Var", 'Dataset'[Production VOL Var],
+        "Labor Hours CY", 'Dataset'[Labor Hours CY],
+        "Labor Hours PY", 'Dataset'[Labor Hours PY],
+        "Labor Hours Budget", 'Dataset'[Labor Hours Budget],
+        "Labor Efficiency Ratio", 'Dataset'[Labor Efficiency Ratio],
+        "Production Yield per Labor Hour CY", 'Dataset'[Production Yield per Labor Hour CY],
+        "Production Yield per Labor Hour Budget", 'Dataset'[Production Yield per Labor Hour Budget],
+        "Production Yield VAR", 'Dataset'[Production Yield VAR],
+        "Var Target", 'Dataset'[Var Target],
+        "Labor Cost CY", 'Dataset'[Labor Cost CY],
+        "Labor Cost PY", 'Dataset'[Labor Cost PY],
+        "Labor Cost Budget", 'Dataset'[Labor Cost Budget],
+        "VOL Variance", 'Dataset'[VOL Variance],
+        "Productivity Variance", 'Dataset'[Productivity Variance],
+        "Rate Variance", 'Dataset'[Rate Variance],
+        "Production Efficiency Variance", 'Dataset'[Production Efficiency Variance],
+        "Labor Cost Variance", 'Dataset'[Labor Cost Variance],
+        "Labor Hours Total", 'Dataset'[Labor Hours Total],
+        "Cost per KG VAR PY", 'Dataset'[Cost per KG VAR PY],
+        "FTE Total", 'Dataset'[FTE Total],
+        "Production Yield Total", 'Dataset'[Production Yield Total],
+        "Start Of Month", 'Fiscal Calendar'[Start Of Month],
+        "End of Month", 'Fiscal Calendar'[End of Month],
+        "Net Work Days", 'Fiscal Calendar'[Net Work Days],
+        "FTE Hours Total", 'Fiscal Calendar'[FTE Hours Total]
+    )

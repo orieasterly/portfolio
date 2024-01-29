@@ -2,7 +2,8 @@
   "version": "1.0.0",
   "tabOrder": [
     "Query 1",
-    "All Measures"
+    "All Measures",
+    "Query 2"
   ],
-  "defaultTab": "Query 1"
+  "defaultTab": "Query 2"
 }
