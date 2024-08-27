@@ -39,7 +39,7 @@ The Labor Dashboard delivers a dynamic, timeline-based overview of labor efficie
 - Enhanced visibility into labor trends and patterns, enabling proactive decision-making.
 - Identified areas for optimization, led to increased productivity and cost savings.
 - Informed resource allocation and strategic workforce planning.
-- Avocated for data-driven decision-making culture, fostered a performance-oriented environment.
+- Advocated for data-driven decision-making culture, fostered a performance-oriented environment.
 </details>
 
 ---
